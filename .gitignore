@@ -1,0 +1,33 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Large or restricted research material
+data/raw/
+data/processed/
+materials/restricted/
+private/
+models/
+checkpoints/
+outputs/
+runs/
+cache/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+# Third-party checkout: keep provenance instead of silently redistributing
+**/upstream/
+# Local editor / OS state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

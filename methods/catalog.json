@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-08-31",
+  "status_definitions": {
+    "planned": "研究方案，未运行",
+    "source_pinned": "来源、commit和仓库声明的代码许可已记录，未运行",
+    "example_runs": "指定示例成功，有日志",
+    "evaluated": "按协议完成评估，有结果",
+    "independently_verified": "经他人独立复核"
+  },
+  "methods": [
+    {
+      "id": "semantic",
+      "name": "Citation evidence verification",
+      "readme": "methods/semantic/README.md",
+      "status": "source_pinned",
+      "unit": "citation_instance",
+      "upstream": {
+        "repository": "https://github.com/ScienceNLP-Lab/Citation-Integrity",
+        "commit": "e9823957bb263db9ae402351b76d88ff1a723712",
+        "code_license": "MIT",
+        "license_url": "https://github.com/ScienceNLP-Lab/Citation-Integrity/blob/e9823957bb263db9ae402351b76d88ff1a723712/LICENSE",
+        "checked_at": "2026-08-31"
+      },
+      "run_records": []
+    },
+    {
+      "id": "cidre",
+      "name": "CIDRE",
+      "readme": "methods/cidre/README.md",
+      "status": "source_pinned",
+      "unit": "journal_network",
+      "upstream": {
+        "repository": "https://github.com/skojaku/cidre",
+        "commit": "5b582b77537407f7b975f80ffbebfa248f967611",
+        "code_license": "Apache-2.0",
+        "license_url": "https://github.com/skojaku/cidre/blob/5b582b77537407f7b975f80ffbebfa248f967611/LICENSE",
+        "checked_at": "2026-08-31"
+      },
+      "run_records": []
+    },
+    {
+      "id": "ego_network",
+      "name": "Ego-Network",
+      "readme": "methods/ego_network/README.md",
+      "status": "planned",
+      "unit": "local_network",
+      "upstream": null,
+      "run_records": []
+    },
+    {
+      "id": "community",
+      "name": "Community and reachability analysis",
+      "readme": "methods/community/README.md",
+      "status": "planned",
+      "unit": "graph",
+      "upstream": null,
+      "run_records": []
+    },
+    {
+      "id": "knowledge_graph",
+      "name": "Scholarly knowledge graph",
+      "readme": "methods/knowledge_graph/README.md",
+      "status": "planned",
+      "unit": "entity_relation",
+      "upstream": null,
+      "run_records": []
+    },
+    {
+      "id": "evidence_fusion",
+      "name": "Multi-source evidence fusion",
+      "readme": "methods/evidence_fusion/README.md",
+      "status": "planned",
+      "unit": "explicitly_mapped_case_or_group",
+      "upstream": null,
+      "run_records": []
+    }
+  ]
+}

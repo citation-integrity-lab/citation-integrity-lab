@@ -1,0 +1,10 @@
+{
+  "reviewed_on": "2026-08-31",
+  "note": "Source fingerprints only; originals not redistributed. Claims require separate verification.",
+  "attachments": [
+    {"source_id":"S02","filename":"plan(1).pdf","bytes":228287,"sha256":"023ba84e8c3995f4ffbcd7664684fe4f12893ace97a53c0989049b95110efdaf"},
+    {"source_id":"S03","filename":"精读报告(1).docx","bytes":38022,"sha256":"eb69ca83bd9b4ab4b20303625889825362ee5ef5eaa129678bd942b9ceb9574f"},
+    {"source_id":"S04","filename":"图算法对比表(1).xlsx","bytes":16551,"sha256":"5a4a188d06cef82a4c8bcc9edd827e506016bb69d82f7054f28cf9c55d92ca4c"},
+    {"source_id":"S05","filename":"调研报告.docx","bytes":22334,"sha256":"6d3ab0d5e7259956dedd566a7e58c61d062c02021a07480e05894ea75a8a9082"}
+  ]
+}
