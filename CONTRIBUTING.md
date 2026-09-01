@@ -5,7 +5,7 @@
 ## 最短流程
 
 1. 从最新主分支创建主题分支，例如 `notes/cidre`、`method/ego-network` 或 `case/pilot-01`。
-2. 复制[对应模板](templates/README.md)，放入主题目录，写负责人、日期、来源和当前状态。
+2. 复制[对应模板](templates/README.md)，放入主题目录，写贡献者、日期、来源和当前状态。
 3. 检查没有密钥、敏感材料、未经许可的全文、大型数据和模型权重。
 4. 运行 `python scripts/check_repository.py`。
 5. 创建 Pull Request，请一位同伴核对，再由维护人合并。平台是否强制审核取决于实际设置。
