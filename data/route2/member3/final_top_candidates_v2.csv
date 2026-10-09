@@ -1,0 +1,11 @@
+排名,节点ID,入度,出度,互惠比例,内部密度,综合得分_v2
+1,https://openalex.org/W4281934192,5,0,0.0,0.0,2.0
+2,https://openalex.org/W4386076325,4,0,0.0,0.0,1.6
+3,https://openalex.org/W4206055706,4,0,0.0,0.0,1.6
+4,https://openalex.org/W4293217929,4,2,0.0,0.0,1.6
+5,https://openalex.org/W4293354639,4,1,0.0,0.0,1.6
+6,https://openalex.org/W4385245566,3,0,0.0,0.0,1.2
+7,https://openalex.org/W4206841660,3,0,0.0,0.0,1.2
+8,https://openalex.org/W4292779060,3,0,0.0,0.0,1.2
+9,https://openalex.org/W4226002507,3,0,0.0,0.0,1.2
+10,https://openalex.org/W4310461604,3,0,0.0,0.0,1.2
