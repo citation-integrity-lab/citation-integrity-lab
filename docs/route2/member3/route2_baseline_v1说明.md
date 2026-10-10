@@ -17,6 +17,8 @@
 - final_edges_no_selfcite.csv（116条边表）
 - final_top_candidates_v2.csv（V2 Top10候选表）
 - run_cidre_on_openalex.py（清洗脚本）
+- route2_baseline_v1_nodes_104.csv（104个唯一节点清单）
+- red_doi_to_w_mapping.csv（RED 30条映射，57个唯一节点）
 
 ## 四、文件哈希
 ### 4.1 final_edges_no_selfcite.csv
