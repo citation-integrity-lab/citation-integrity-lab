@@ -18,30 +18,20 @@
 - run_cidre_on_openalex.py（清洗脚本）
 
 ## 四、文件哈希
-(venv) PS D:\Python\cidre-main\examples\route2_baseline_v1> certutil -hashfile final_edges_no_selfcite.csv SHA256
-SHA256 的 final_edges_no_selfcite.csv 哈希:
-85fd4d6c4b35f7febea95a26fa906421cdacc0009227cdf443725f07f394f0e2
-CertUtil: -hashfile 命令成功完成。
+### 4.1 final_edges_no_selfcite.csv
+SHA256: 85fd4d6c4b35f7febea95a26fa906421cdacc0009227cdf443725f07f394f0e2
 
-(venv) PS D:\Python\cidre-main\examples\route2_baseline_v1> certutil -hashfile final_top_candidates_v2.csv SHA256
-SHA256 的 final_top_candidates_v2.csv 哈希:
-44d4e64180dd09f610a84001f6c5d3077464c4ba13a0d89ca65cb6ac9f8ea25d
-CertUtil: -hashfile 命令成功完成。
+### 4.2 final_top_candidates_v2.csv
+SHA256: 44d4e64180dd09f610a84001f6c5d3077464c4ba13a0d89ca65cb6ac9f8ea25d
 
-(venv) PS D:\Python\cidre-main\examples\route2_baseline_v1> certutil -hashfile run_cidre_on_openalex.py SHA256
-SHA256 的 run_cidre_on_openalex.py 哈希:
-42a3d01a589f6742a0f7444e9827b5afc7152f1dbd2158641a158d9a3ca206d1
-CertUtil: -hashfile 命令成功完成。
+### 4.3 run_cidre_on_openalex.py
+SHA256: 42a3d01a589f6742a0f7444e9827b5afc7152f1dbd2158641a158d9a3ca206d1
 
-(venv) PS D:\Python\cidre-main\examples> certutil -hashfile route2_baseline_v1_nodes_104.csv SHA256
-SHA256 的 route2_baseline_v1_nodes_104.csv 哈希:
-fbef74100fd926b314ab917079ac05932109d9bffcea521478494bcee11cc406
-CertUtil: -hashfile 命令成功完成。
+### 4.4 route2_baseline_v1_nodes_104.csv
+SHA256: fbef74100fd926b314ab917079ac05932109d9bffcea521478494bcee11cc406
 
-(venv) PS D:\Python\cidre-main\examples> certutil -hashfile red_doi_to_w_mapping.csv SHA256                                
-SHA256 的 red_doi_to_w_mapping.csv 哈希:
-7305ea2f6775ca3a899dd9913d3fa5e91fc947e8120cff8bcb62b037447eb637
-CertUtil: -hashfile 命令成功完成。
+### 4.5 red_doi_to_w_mapping.csv
+SHA256: 7305ea2f6775ca3a899dd9913d3fa5e91fc947e8120cff8bcb62b037447eb637
 
 
 ## 五、使用说明
