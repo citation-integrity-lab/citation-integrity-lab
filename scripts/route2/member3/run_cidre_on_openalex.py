@@ -1,5 +1,5 @@
 # ============================================================
-# 学术引文不端识别项目 - 成员3
+# 学术引文不端识别项目-成员3
 # 功能：从 OpenAlex 获取论文数据，构建引文网络，简化版异常检测，
 #       绘制 Ego-Network，导出数据包
 # ============================================================
@@ -217,7 +217,7 @@ sorted_nodes_v2 = sorted(scores_v2.items(), key=lambda x: x[1]['total_score'], r
 scores = scores_v1
 sorted_nodes = sorted_nodes_v1
 
-print("\n🔍【V1原始评分】最可疑的节点（Top 5）:")
+print("\n【V1原始评分】最可疑的节点（Top 5）:")
 for i, (node, score) in enumerate(sorted_nodes_v1[:5]):
     print(f"  {i+1}. 节点: {node[:40]}...")
     print(f"    入度={score['in_degree']}, 出度={score['out_degree']}")
@@ -225,7 +225,7 @@ for i, (node, score) in enumerate(sorted_nodes_v1[:5]):
     print(f"    综合得分={score['total_score']:.2f}")
 
 # 打印V2 Top5，方便控制台直接对比
-print("\n🔍【V2改进评分】最可疑的节点（Top 5）:")
+print("\n【V2改进评分】最可疑的节点（Top 5）:")
 for i, (node, score) in enumerate(sorted_nodes_v2[:5]):
     print(f"  {i+1}. 节点: {node[:40]}...")
     print(f"    入度={score['in_degree']}, 出度={score['out_degree']}")
@@ -384,7 +384,7 @@ print("Top候选节点列表【V2改进版】已保存为 final_top_candidates_v
 # ============================================================
 # 八、打印数据版本说明与对比结果
 # ============================================================
-print("\n📌 数据版本说明：")
+print("\n 数据版本说明：")
 print(f"  节点总数：{G.number_of_nodes()}")
 print(f"  去除自引用后边数：{G.number_of_edges()}")
 print(f"  最终Top 1节点：{top_node}")
