@@ -43,7 +43,11 @@ for s in samples:
         for n2 in out_nb[i+1:]:
             if G.has_edge(n1, n2) or G.has_edge(n2, n1):
                 internal += 1
-    max_possible = len(out_nb) * (len(out_nb) - 1) / 2 if len(out_nb) > 1 else 1
+    max_possible = len(out_nb) * (len(out_nb) - 1) / 2 if len(out_nb) > 1 else 0
+    if max_possible == 0:
+        internal_density = None  # 出度≤1，无法计算
+    else:
+        internal_density = internal / max_possible
     internal_density = internal / (max_possible + 1e-6)
 
     # 2跳Ego子图
