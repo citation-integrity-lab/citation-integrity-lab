@@ -1,7 +1,7 @@
 # 路线二 成员3 脚本说明
 
-维护人：成员3
-路径：scripts/route2/member3/
+- 维护人：成员3
+- 路径：scripts/route2/member3/
 
 ## 一、脚本清单
 
